@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>story on My Blog</title>
+    <link>https://ekocahyo.github.io/tags/story/</link>
+    <description>Recent content in story on My Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Eko Cahyo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 06 May 2020 11:23:44 +0700</lastBuildDate>
+    
+	<atom:link href="https://ekocahyo.github.io/tags/story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hari Pertama Dengan Hugo</title>
+      <link>https://ekocahyo.github.io/blog/hari-pertama-dengan-hugo/</link>
+      <pubDate>Wed, 06 May 2020 11:23:44 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/blog/hari-pertama-dengan-hugo/</guid>
+      <description>Hello World! Mungkin kata tersebut yang harus saya ucapkan pertamakali, seperti yang lainnya ketika berhasil menjalankan sesuatu (contoh xampp/apache). Ini pertama kalinya saya mencoba membuat blog dengan menggunakan generator web static dengan bahasa Go (Go lang). Awalnya saya coba menggunakan generator web static miliknya jekyll tapi selalu gagal dan saya rasa sulit untuk mempelajari bahasa rubby.
+Intro Hugo Pertama kali saya coba Hugo, saya langsung di bikin jatuh hati. Salah satu yang bikin saya menyukainya adalah, ketika running servernya, dan saya ada edit content, tanpa perlu refresh browser, content sudah berubah sendiri.</description>
+    </item>
+    
+  </channel>
+</rss>
