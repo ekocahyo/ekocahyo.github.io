@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://ekocahyo.github.io/categories/</loc>
     <lastmod>2020-06-05T22:11:50+07:00</lastmod>
   </url>
@@ -30,6 +31,45 @@
   <url>
     <loc>https://ekocahyo.github.io/blog/</loc>
     <lastmod>2020-05-06T11:23:44+07:00</lastmod>
+=======
+    <loc>https://ekocahyo.github.io/tags/ansible/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/categories/ansible/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/blog/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/categories/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/blog/kenalan-sama-ansible/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/tags/python/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/tags/sysadmin/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/tags/</loc>
+    <lastmod>2020-05-07T08:48:42+07:00</lastmod>
+>>>>>>> 8ef207379946952090d533c2c5d83a541384526b
   </url>
   
   <url>
@@ -49,11 +89,6 @@
   
   <url>
     <loc>https://ekocahyo.github.io/tags/story/</loc>
-    <lastmod>2020-05-06T11:23:44+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ekocahyo.github.io/tags/</loc>
     <lastmod>2020-05-06T11:23:44+07:00</lastmod>
   </url>
   

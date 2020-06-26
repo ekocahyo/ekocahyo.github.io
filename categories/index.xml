@@ -6,17 +6,29 @@
     <description>Recent content in Categories on A Small Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Eko Cahyo Authors; all rights reserved.</copyright>
+<<<<<<< HEAD
     <lastBuildDate>Fri, 05 Jun 2020 22:11:50 +0700</lastBuildDate>
+=======
+    <lastBuildDate>Thu, 07 May 2020 08:48:42 +0700</lastBuildDate>
+>>>>>>> 8ef207379946952090d533c2c5d83a541384526b
     
 	<atom:link href="https://ekocahyo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>How to</title>
       <link>https://ekocahyo.github.io/categories/how-to/</link>
       <pubDate>Fri, 05 Jun 2020 22:11:50 +0700</pubDate>
       
       <guid>https://ekocahyo.github.io/categories/how-to/</guid>
+=======
+      <title>ansible</title>
+      <link>https://ekocahyo.github.io/categories/ansible/</link>
+      <pubDate>Thu, 07 May 2020 08:48:42 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/categories/ansible/</guid>
+>>>>>>> 8ef207379946952090d533c2c5d83a541384526b
       <description></description>
     </item>
     

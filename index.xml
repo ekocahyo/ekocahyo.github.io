@@ -12,6 +12,7 @@
     
     
     <item>
+<<<<<<< HEAD
       <title>Install Nginx on Centos 7</title>
       <link>https://ekocahyo.github.io/how-to/web/install-nginx-on-centos-7/</link>
       <pubDate>Fri, 05 Jun 2020 22:11:50 +0700</pubDate>
@@ -27,6 +28,15 @@
       
       <guid>https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/</guid>
       <description>Install Apache Config Selinux Config Firewall Testing </description>
+=======
+      <title>Kenalan Sama Ansible</title>
+      <link>https://ekocahyo.github.io/blog/kenalan-sama-ansible/</link>
+      <pubDate>Thu, 07 May 2020 08:48:42 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/blog/kenalan-sama-ansible/</guid>
+      <description>Intro to Ansible Hari ini yang akan saya share adalah Ansible. Jadi Ansible ini merupakan suatu tool yang unik buat IT Operator. Ansible ini base language nya adalah python. Ansible sebenarnya bisa digunakan untuk konfigurasi perangkat jaringan seperti router dan swtich manage, dan juga operasi sistem seperti linux, windows, dsb. Tapi untuk saat ini kebanyakan orang menggunakan ansible untuk memange server, atau bisa dibilang setting linux server.
+How Ansible work Ansible ini perlu di install dulu di komputer kita (sebagai IT Operator).</description>
+>>>>>>> 8ef207379946952090d533c2c5d83a541384526b
     </item>
     
     <item>
