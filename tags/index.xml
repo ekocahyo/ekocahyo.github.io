@@ -6,10 +6,37 @@
     <description>Recent content in Tags on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Eko Cahyo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 06 May 2020 11:23:44 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2020 08:48:42 +0700</lastBuildDate>
     
 	<atom:link href="https://ekocahyo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ansible</title>
+      <link>https://ekocahyo.github.io/tags/ansible/</link>
+      <pubDate>Thu, 07 May 2020 08:48:42 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/tags/ansible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://ekocahyo.github.io/tags/python/</link>
+      <pubDate>Thu, 07 May 2020 08:48:42 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sysadmin</title>
+      <link>https://ekocahyo.github.io/tags/sysadmin/</link>
+      <pubDate>Thu, 07 May 2020 08:48:42 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/tags/sysadmin/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>other</title>
