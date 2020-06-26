@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #fff;
     --main-font-color: #313537;
-    --main-link-color: #0011ff;
+    --main-link-color: #296575;
     --header-font-color: #333333;
     --header-link-color: #666666;
     --footer-link-color: #313537;
@@ -177,7 +177,7 @@ h6 {
     font-size: 6px;
     margin: 0 6px;
     vertical-align: middle;
-    content: "•";
+    content: "|";
 }
 
 .content .tags ul li:hover {

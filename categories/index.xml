@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My Blog</title>
+    <title>Categories on A Small Note</title>
     <link>https://ekocahyo.github.io/categories/</link>
-    <description>Recent content in Categories on My Blog</description>
+    <description>Recent content in Categories on A Small Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Eko Cahyo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 06 May 2020 11:23:44 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 22:11:50 +0700</lastBuildDate>
     
 	<atom:link href="https://ekocahyo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to</title>
+      <link>https://ekocahyo.github.io/categories/how-to/</link>
+      <pubDate>Fri, 05 Jun 2020 22:11:50 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/categories/how-to/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Story</title>
