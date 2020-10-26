@@ -6,20 +6,10 @@
     <description>Recent content in Blogs on A Small Note</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, Eko Cahyo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 07 May 2020 08:48:42 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 11:23:44 +0700</lastBuildDate>
     
 	<atom:link href="https://ekocahyo.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Kenalan Sama Ansible</title>
-      <link>https://ekocahyo.github.io/blog/kenalan-sama-ansible/</link>
-      <pubDate>Thu, 07 May 2020 08:48:42 +0700</pubDate>
-      
-      <guid>https://ekocahyo.github.io/blog/kenalan-sama-ansible/</guid>
-      <description>Intro to Ansible Hari ini yang akan saya share adalah Ansible. Jadi Ansible ini merupakan suatu tool yang unik buat IT Operator. Ansible ini base language nya adalah python. Ansible sebenarnya bisa digunakan untuk konfigurasi perangkat jaringan seperti router dan swtich manage, dan juga operasi sistem seperti linux, windows, dsb. Tapi untuk saat ini kebanyakan orang menggunakan ansible untuk memange server, atau bisa dibilang setting linux server.
-How Ansible work Ansible ini perlu di install dulu di komputer kita (sebagai IT Operator).</description>
-    </item>
     
     <item>
       <title>Hari Pertama Dengan Hugo</title>
