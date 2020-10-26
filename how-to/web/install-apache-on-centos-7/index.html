@@ -142,7 +142,7 @@
                     </h1>
 
                     <div class="mb-4 mb-md-5 meta">
-                        <span class="date" title='Fri Jun 5 2020 21:21:17 WIB'>
+                        <span class="date" title='Fri Jun 5 2020 22:11:50 WIB'>
                             Fri, 05 Jun 2020
                         </span>
 
@@ -160,11 +160,43 @@
                     <div class="markdown">
                         
     
-    <h2 id="install-apache">Install Apache</h2>
-<h2 id="config-selinux">Config Selinux</h2>
-<h2 id="config-firewall">Config Firewall</h2>
-<h2 id="testing">Testing</h2>
-
+    <h2 id="install-apache">Install apache</h2>
+<p><code>yum install -y httpd</code></p>
+<h2 id="manajemen-service-apache">Manajemen service apache</h2>
+<ul>
+<li>Testing apache config:
+<code>httpd -t</code></li>
+<li>Memulai apache:
+<code>systemctl start apache</code></li>
+<li>Menghentikan apache:
+<code>systemctl stop apache</code></li>
+<li>Memuat ulang apache
+<code>systemctl restart apache</code></li>
+<li>Load konfigurasi file apache:
+<code>systemctl reload apache</code></li>
+<li>Mengaktifkan secara otomatis layanan apache saat booting:
+<code>systemctl enable apache</code></li>
+<li>Nonaktifkan apache untuk memulai otomatis saat boot:
+<code>systemctl disable apache</code></li>
+</ul>
+<h2 id="struktur-file-konfigurasi-apache">Struktur file konfigurasi apache</h2>
+<pre><code>/
+├─ etc/
+│  ├─ conf/
+│  │  ├─ httpd.conf
+│  ├─ conf.d/
+│  │  ├─ domain.conf
+│  ├─ conf.modules.d/
+│  │  ├─ ssl.conf
+├─ var/
+│  ├─ log/
+│  │  ├─ apache/
+│  │  │  ├─ access.log
+│  │  │  ├─ error.log
+│  ├─ www/
+│  │  ├─ html/
+│  │  │  ├─ index.html
+</code></pre>
 
 
                     </div>
@@ -174,10 +206,9 @@
                     <div class="col-sm-12 col-md-3">
                         <nav id="TableOfContents" class="sticky-top">
   <ul>
-    <li><a href="#install-apache">Install Apache</a></li>
-    <li><a href="#config-selinux">Config Selinux</a></li>
-    <li><a href="#config-firewall">Config Firewall</a></li>
-    <li><a href="#testing">Testing</a></li>
+    <li><a href="#install-apache">Install apache</a></li>
+    <li><a href="#manajemen-service-apache">Manajemen service apache</a></li>
+    <li><a href="#struktur-file-konfigurasi-apache">Struktur file konfigurasi apache</a></li>
   </ul>
 </nav>
                     </div>
@@ -195,20 +226,20 @@
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    
-                                        <div class="mx-0 mx-md-4 mt-4 text-right">
+                                        <div class="mx-0 mx-md-4 mt-4 text-left">
                                             <a href="https://ekocahyo.github.io/how-to/web/install-nginx-on-centos-7/">
-                                                <span class="text">Install Nginx on Centos 7</span>
                                                 <span class="icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
-        <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z" />
+        <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225 c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z" />
     </svg>
 </span>
 
+                                                <span class="text">Install Nginx on Centos 7</span>
                                             </a>
                                         </div>
+                                    
+                                </div>
+                                <div class="col-12 col-md-6">
                                     
                                 </div>
                             </div>
@@ -222,7 +253,7 @@
                         <ul class="list-unstyled d-inline">
                             
                                 <li class="d-inline middot">
-                                    <a href="https://ekocahyo.github.io/tags/"></a>
+                                    <a href="https://ekocahyo.github.io/tags/web">web</a>
                                 </li>
                             
                         </ul>

@@ -12,21 +12,24 @@
     
     
     <item>
+      <title>Install Apache on Centos 7</title>
+      <link>https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/</link>
+      <pubDate>Fri, 05 Jun 2020 22:11:50 +0700</pubDate>
+      
+      <guid>https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/</guid>
+      <description>Install apache yum install -y httpd
+Manajemen service apache  Testing apache config: httpd -t Memulai apache: systemctl start apache Menghentikan apache: systemctl stop apache Memuat ulang apache systemctl restart apache Load konfigurasi file apache: systemctl reload apache Mengaktifkan secara otomatis layanan apache saat booting: systemctl enable apache Nonaktifkan apache untuk memulai otomatis saat boot: systemctl disable apache  Struktur file konfigurasi apache / ├─ etc/ │ ├─ conf/ │ │ ├─ httpd.</description>
+    </item>
+    
+    <item>
       <title>Install Nginx on Centos 7</title>
       <link>https://ekocahyo.github.io/how-to/web/install-nginx-on-centos-7/</link>
       <pubDate>Fri, 05 Jun 2020 22:11:50 +0700</pubDate>
       
       <guid>https://ekocahyo.github.io/how-to/web/install-nginx-on-centos-7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Install Apache on Centos 7</title>
-      <link>https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/</link>
-      <pubDate>Fri, 05 Jun 2020 21:21:17 +0700</pubDate>
-      
-      <guid>https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/</guid>
-      <description>Install Apache Config Selinux Config Firewall Testing </description>
+      <description>Install Nginx Install dari repo epel yum install -y epel-repo &amp;amp;&amp;amp; yum install -y nginx
+Install dari official repo nginx cat &amp;lt;&amp;lt; EOF &amp;gt; /etc/yum.repos.d/nginx.repo [nginx-stable] name=nginx stable repobaseurl=http://nginx.org/packages/centos/$releasever/$basearch/ gpgcheck=1 enabled=1 gpgkey=https://nginx.org/keys/nginx_signing.key module_hotfixes=true EOF &amp;amp;&amp;amp; yum install -y nginx reference: repo nginx
+Manajemen service nginx  Testing nginx config: nginx -t Memulai nginx: systemctl start nginx Menghentikan nginx: systemctl stop nginx Memuat ulang nginx systemctl restart nginx Load konfigurasi file nginx: systemctl reload nginx Mengaktifkan secara otomatis layanan nginx saat booting: systemctl enable nginx Nonaktifkan Nginx untuk memulai otomatis saat boot: systemctl disable nginx  Struktur file konfigurasi nginx / ├─ etc/ │ ├─ nginx.</description>
     </item>
     
   </channel>

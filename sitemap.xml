@@ -18,13 +18,23 @@
   </url>
   
   <url>
+    <loc>https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/</loc>
+    <lastmod>2020-06-05T22:11:50+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ekocahyo.github.io/how-to/web/install-nginx-on-centos-7/</loc>
     <lastmod>2020-06-05T22:11:50+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/</loc>
-    <lastmod>2020-06-05T21:21:17+07:00</lastmod>
+    <loc>https://ekocahyo.github.io/tags/</loc>
+    <lastmod>2020-06-05T22:11:50+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ekocahyo.github.io/tags/web/</loc>
+    <lastmod>2020-06-05T22:11:50+07:00</lastmod>
   </url>
   
   <url>
@@ -49,11 +59,6 @@
   
   <url>
     <loc>https://ekocahyo.github.io/tags/story/</loc>
-    <lastmod>2020-05-06T11:23:44+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ekocahyo.github.io/tags/</loc>
     <lastmod>2020-05-06T11:23:44+07:00</lastmod>
   </url>
   
