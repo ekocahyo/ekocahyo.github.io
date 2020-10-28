@@ -12,21 +12,21 @@
     <meta property="og:site_name" content="A Small Note" />
     <meta property="og:locale" content="nn_NO" />
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/" />
-    <meta property="og:title" content="Install Apache on Centos 7" />
+    <meta property="og:url" content="https://ekocahyo.github.io/how-to/web/nginx-server-block/" />
+    <meta property="og:title" content="Nginx Server Block" />
     <meta property="og:image" content="https://ekocahyo.github.io/cahyo.png" />
     <meta property="og:description" content="My Blog" />
 
     
 
-    <meta property="twitter:title" content="Install Apache on Centos 7" />
+    <meta property="twitter:title" content="Nginx Server Block" />
     <meta property="twitter:image" content="https://ekocahyo.github.io/cahyo.png" />
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:description" content="My Blog" />
 
     
 
-    <link rel="canonical" href="https://ekocahyo.github.io/how-to/web/install-apache-on-centos-7/">
+    <link rel="canonical" href="https://ekocahyo.github.io/how-to/web/nginx-server-block/">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -138,12 +138,12 @@
                     
                 >
                     <h1 class="mx-0 mx-md-4">
-                        Install Apache on Centos 7
+                        Nginx Server Block
                     </h1>
 
                     <div class="mb-4 mb-md-5 meta">
-                        <span class="date" title='Fri Jun 5 2020 22:11:50 WIB'>
-                            Fri, 05 Jun 2020
+                        <span class="date" title='Wed Oct 28 2020 10:44:20 WIB'>
+                            Wed, 28 Oct 2020
                         </span>
 
                         
@@ -160,42 +160,34 @@
                     <div class="markdown">
                         
     
-    <h2 id="install-apache">Install apache</h2>
-<p><code>yum install -y httpd</code></p>
-<h2 id="manajemen-service-apache">Manajemen service apache</h2>
-<ul>
-<li>Testing apache config:
-<code>httpd -t</code></li>
-<li>Memulai apache:
-<code>systemctl start apache</code></li>
-<li>Menghentikan apache:
-<code>systemctl stop apache</code></li>
-<li>Memuat ulang apache
-<code>systemctl restart apache</code></li>
-<li>Load konfigurasi file apache:
-<code>systemctl reload apache</code></li>
-<li>Mengaktifkan secara otomatis layanan apache saat booting:
-<code>systemctl enable apache</code></li>
-<li>Nonaktifkan apache untuk memulai otomatis saat boot:
-<code>systemctl disable apache</code></li>
-</ul>
-<h2 id="struktur-file-konfigurasi-apache">Struktur file konfigurasi apache</h2>
-<pre><code>/
-├─ etc/
-│  ├─ conf/
-│  │  ├─ httpd.conf
-│  ├─ conf.d/
-│  │  ├─ domain.conf
-│  ├─ conf.modules.d/
-│  │  ├─ ssl.conf
-├─ var/
-│  ├─ log/
-│  │  ├─ apache/
-│  │  │  ├─ access.log
-│  │  │  ├─ error.log
-│  ├─ www/
-│  │  ├─ html/
-│  │  │  ├─ index.html
+    <h2 id="single-server-block">Single server block</h2>
+<p>Dalam 1 server hanya ada 1 website:</p>
+<pre><code>server {
+  listen 80;
+  server_name _;
+  access_log logs/access.log main;
+  root /path/to/site;
+}
+</code></pre><h2 id="multiple-server-block">Multiple server block</h2>
+<p>Dalam 1 server ada beberapa website:</p>
+<pre><code>server {
+  listen 80;
+  server_name domain1.tld;
+  access_log logs/domain1.access.log main;
+  root /path/to/domain1;
+}
+server {
+  listen 80;
+  server_name domain2.tld;
+  access_log logs/domain2.access.log main;
+  root /path/to/domain2;
+}
+server {
+  listen 80;
+  server_name domain3.tld;
+  access_log logs/domain3.access.log main;
+  root /path/to/domain3;
+}
 </code></pre>
 
 
@@ -206,9 +198,8 @@
                     <div class="col-sm-12 col-md-3">
                         <nav id="TableOfContents" class="sticky-top">
   <ul>
-    <li><a href="#install-apache">Install apache</a></li>
-    <li><a href="#manajemen-service-apache">Manajemen service apache</a></li>
-    <li><a href="#struktur-file-konfigurasi-apache">Struktur file konfigurasi apache</a></li>
+    <li><a href="#single-server-block">Single server block</a></li>
+    <li><a href="#multiple-server-block">Multiple server block</a></li>
   </ul>
 </nav>
                     </div>
@@ -227,31 +218,19 @@
                                 <div class="col-12 col-md-6">
                                     
                                         <div class="mx-0 mx-md-4 mt-4 text-left">
-                                            <a href="https://ekocahyo.github.io/how-to/web/install-nginx-on-centos-7/">
+                                            <a href="https://ekocahyo.github.io/how-to/web/nginx-redirect-http-to-https/">
                                                 <span class="icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
         <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225 c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z" />
     </svg>
 </span>
 
-                                                <span class="text">Install Nginx on Centos 7</span>
+                                                <span class="text">Nginx Redirect Http to Https</span>
                                             </a>
                                         </div>
                                     
                                 </div>
                                 <div class="col-12 col-md-6">
-                                    
-                                        <div class="mx-0 mx-md-4 mt-4 text-right">
-                                            <a href="https://ekocahyo.github.io/how-to/web/nginx-redirect-http-to-https/">
-                                                <span class="text">Nginx Redirect Http to Https</span>
-                                                <span class="icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175">
-        <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5 c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z" />
-    </svg>
-</span>
-
-                                            </a>
-                                        </div>
                                     
                                 </div>
                             </div>
